@@ -51,10 +51,10 @@ private const val AUTHOR_REDDIT_NAME = "as-opposed-to"
 
 private const val COMMENT_TEXT = "As opposed to?"
 
-private const val INITIAL_DELAY_MINUTES = 0L
-private const val PERIOD_MINUTES = 25L
+private const val INITIAL_DELAY_MINUTES = 20L
+private const val PERIOD_MINUTES = 33L
 
-private const val DRY = true
+private const val DRY = false
 
 val redditClient = RedditClient.newRedditClient(
     ClientConfiguration(
